@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+div {
+  width: 500px;
+  margin: 50px auto;
+  padding: 5px;
+  border: 5px solid black;
+}
+ul {
+  display: flex;
+  height: 30px;
+}
+button {
+  width: 30px;
+  height: 30px;
+  background-color: #c0c0c0;
+}
+.bgc1 {
+  background-color: white;
+}
+.bgc2 {
+  background-color: black;
+}
+.bgc3 {
+  background: url(./qizi.png)no-repeat;
+  background-color: #c0c0c0;
+  background-size: 100%;
+}
+.active {
+  background: url(./dilei.png) no-repeat;
+  background-size: 100%;
+}
+p {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  font-size: 20px;
+}
